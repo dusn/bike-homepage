@@ -1,0 +1,159 @@
+.main-header {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/header-bg.jpg") no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.main-header .main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 0;
+  width: 100%;
+  transition: all 0.3s;
+}
+.main-header .main-nav-item {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: #4d4959;
+  text-transform: uppercase;
+  margin-right: 4rem;
+  transition: all 0.3s;
+}
+.main-header .main-nav__logo {
+  margin: 0 6.5rem;
+}
+
+.lt-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+}
+
+.lt-headtext {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.lt-icontext {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.lt-side1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.lt-side4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.lt-picwithicon1 {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.lt-picwithicon2 {
+  grid-area: 3 / 2 / 4 / 4;
+}
+
+.lt-icontext {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.lt-side2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.lt-side3 {
+  grid-area: 2 / 1 / 3 / 4;
+}
+
+.lt-imagedownleft {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.lt-imagedownmid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.lt-imagebelow {
+  grid-area: 2 / 1 / 3 / 4;
+}
+
+.lt-text-with\ icon {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.lt-imagedownright {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.lt-Twitter-Area {
+  grid-area: 5 / 1 / 6 / 4;
+}
+
+.lt-img1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+.lt-imgleft {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.lt-img2 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+
+.lt-veloimg {
+  grid-area: 6 / 2 / 8 / 3;
+}
+
+.lt-shopnow {
+  grid-area: 6 / 3 / 7 / 4;
+}
+
+.lt-img3 {
+  grid-area: 7 / 3 / 8 / 4;
+}
+
+.lt-discovershop {
+  grid-area: 8 / 1 / 9 / 4;
+}
+
+.lt-staylogo {
+  grid-area: 9 / 2 / 10 / 3;
+}
+
+.lt-icons {
+  grid-area: 10 / 2 / 11 / 3;
+}
+
+.lt-adress {
+  grid-area: 10 / 1 / 11 / 2;
+}
+
+.lt-handcrafted {
+  grid-area: 10 / 3 / 11 / 4;
+}
